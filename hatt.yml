@@ -1,0 +1,5 @@
+
+hatt_services:
+  # shothand of owm for "open weather map api"
+  owm:
+    url: http://api.openweathermap.org
