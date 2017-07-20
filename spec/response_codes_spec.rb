@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "Respose codes for Open Weather Map" do
   it "should return 200 for a successful query" do
     weather_for 'San Francisco, CA'
-    expect(owm.last_response_status).to equal(200)
+    expect(owm.last_response_status).to eq 200
   end
 
   it "should return 404 for an unsuccessful query" do
